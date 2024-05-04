@@ -1,0 +1,61 @@
+
+.wrapper {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ & button {
+    background: linear-gradient(90deg, #3087E9 0%, #466AD8 100%);
+    color: white; 
+    width: 12rem;
+ }
+}
+.divider{
+    height: 1px;
+    background-color: rgb(132, 138, 138);
+}
+
+.graph {
+    width: 100%;   
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 270px;
+    padding: 15px 10px;
+    & img {
+        height: 75px;
+        width: 75px;
+        object-fit:fill;
+        margin: 10px;
+    }
+    & h3 {
+        font-size: xx-large;
+        margin: 2px;
+    }
+    & p {
+        font-size: 18px;
+    }
+}
+
+.cardsSection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gradientColor{
+    color: white;
+    background: linear-gradient(90deg, #3087E9 0%, #466AD8 100%);
+}

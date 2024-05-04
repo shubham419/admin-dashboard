@@ -1,0 +1,15 @@
+.dashboardWrapper {
+    display: flex;
+    width: 100%;
+}
+.teamChallenges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentWrapper {
+    width: calc(100% - 200px); 
+    margin-left: 200px; 
+  }
+  

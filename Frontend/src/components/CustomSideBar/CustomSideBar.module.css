@@ -1,0 +1,42 @@
+.customSideBar {
+    background-color: #232323; /* Dark background color */
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid #333; /* Darker border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: white; /* Text color */
+  }
+  
+  .logoText {
+    font-size: 20px;
+    margin-bottom: 20px; /* Spacing between logo text and menu items */
+  }
+  
+  .menuItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menuItem {
+    margin-bottom: 10px; /* Spacing between menu items */
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color from parent */
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .menuItem:hover {
+    color: #ffc107; /* Change text color on hover */
+    /* transform: scale(1.1); Scale up slightly on hover */
+    border: 1px solid white;
+  }
+
+  .selectedMenuItem {
+    color: #ffc107; /* Change text color when selected */
+    border: 1px solid white;
+  }

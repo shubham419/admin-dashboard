@@ -1,0 +1,33 @@
+.teamRow {
+    background-color: #f8f9fa;
+  }
+  
+  .teamRow td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .teamRow td:first-child {
+    font-weight: bold;
+  }
+  
+  .teamRow:hover {
+    background-color: #e9ecef;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .editButton:hover,
+  .deleteButton:hover {
+    background-color: #0056b3;
+  }
+  
